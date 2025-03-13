@@ -35,7 +35,7 @@ public class LabActivity2EmployeeInformationSystemPart2 {
         // multiply the month salary by 12 to get gross yearly wage
         double grossYearlyWage =  monthlySalary * 12;
 
-        // multiply the gross by .68 since we want to find the other part of 32% and lastly subtract by 1500.
+        // Subtract gross with tax and benefits to get net yearly.
         double taxRate = 0.32;
         double netYearlyWage = grossYearlyWage - (grossYearlyWage * taxRate) - 1500;
 
